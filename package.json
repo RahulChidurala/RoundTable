@@ -1,0 +1,30 @@
+{
+  "name": "roundtable",
+  "version": "1.0.0",
+  "description": "A game about lying to your friends.",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon server.js",
+    "test": ""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JonSousa/RoundTable.git"
+  },
+  "keywords": [
+    "website",
+    "setup"
+  ],
+  "author": "Jon Sousa",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/JonSousa/RoundTable/issues"
+  },
+  "homepage": "https://github.com/JonSousa/RoundTable#readme",
+  "dependencies": {
+    "ejs": "^2.5.6",
+    "express": "^4.15.0",
+    "nodemon": "^1.11.0",
+    "reload": "^1.1.1"
+  }
+}
