@@ -1,25 +1,32 @@
-<nav class="navbar navbar-inverse">
-<div class="container-fluid">
-  <div class="navbar-header">
-    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#collapseNavbar">
-      <span class="icon-bar"></span>
-      <span class="icon-bar"></span>
-      <span class="icon-bar"></span>
-    </button>
-    <a class="navbar-brand" href="/">Logo Placement Here</a>
-  </div>
-  <div class="collapse navbar-collapse" id="collapseNavbar">
-    <ul class="nav navbar-nav">
-      <li class="active"><a href="/"> <span class="glyphicon glyphicon-home"></span> Home</a></li>
-      <li><a href="/about">Rules</a></li>
-      <li><a href="/store">Characters</a></li>
-      <li><a href="/contact">Contact</a></li>
-    </ul>
-    <!-- Backend is hopefully not needed -->
-    <!-- <ul class="nav navbar-nav navbar-right">
-      <li><a href="#"><span class="glyphicon glyphicon-user"></span> Register</a></li>
-      <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
-    </ul> -->
-  </div>
-</div>
-</nav>
+<header>
+  <div class="jumbotron hidden-xs">
+  </div><!-- jumbotron -->
+
+  <nav class="navbar navbar-inverse">
+    <div class="container">
+      <div class="navbar-header">
+
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse" aria-expanded="false">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+
+        <a href="/" class="navbar-brand">Round Table</a>
+      </div>
+      <div class="collapse navbar-collapse" id="navbar-collapse">
+        <ul class="nav navbar-nav navbar-right">
+          <li><a href="/">Home</a></li>
+            <li><a href="/speakers" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Character List <span class="caret"><span></a>
+              <ul class="dropdown-menu">
+                <li><a href="/speakers">Put stuff here</a></li>
+              </ul>
+          </li>
+          <li><a href="/feedback">Create a game</a></li>
+          <li><a href="/chat">Join a game</a></li>
+        </ul><!-- nav -->
+      </div><!-- navbar-collapse -->
+    </div><!-- container -->
+  </nav>
+</header>

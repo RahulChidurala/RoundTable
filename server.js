@@ -2,8 +2,12 @@ const express = require('express');
 const reload = require('reload');
 const app = express();
 const port = process.env.PORT || 3000;
+// var dataFile = require('./../../data.json');
+const io = require('socket.io')();
+const session = require('express-session')
 
 app.set('view engine', 'ejs');    //This sets up which kind of view engine to use
+// app.set('appData', dataFile);
 app.set('views', './src/views');    //This tells node where the views are.
 
 app.locals.siteTitle = 'RoundTable';
