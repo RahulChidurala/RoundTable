@@ -17,6 +17,8 @@ app.use(express.static('./src/public'));
 
 //Routes
 app.use(require('./src/routes/index'));
+app.use(require('./src/routes/create'));
+app.use(require('./src/routes/join'));
 app.use(require('./src/routes/contact'));
 
 const server = app.listen(port, () => {
