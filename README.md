@@ -23,5 +23,5 @@ Minimum Viable Product Goals
 * Set up chat
 * Allow user to create identity
 * Give that user identity a sessionID or some way to be tracked
-* Create all of the character roles
+*  ~~Create all of the character roles ~~
 * Randomly select each player and assign that person a random role
