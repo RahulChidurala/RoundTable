@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title><%= siteTitle %> - <%= pageTitle %></title>
+    <% include partials/templates/head.ejs %>
+  </head>
+  <body id="<%= pageID %>">
+    <% include partials/templates/header.ejs %>
+
+
+    <div class="container text-center">
+    <h3>What is RoundTable?</h3><br>
+    <div class="row">
+      <div class="col-sm-4">
+        <img src="https://placehold.it/150x80?text=Model" class="img-responsive" style="width:100%" alt="A mother holding her cute baby.">
+        <p>Something eye catching.</p>
+      </div>
+      <div class="col-sm-4">
+        <img src="https://placehold.it/150x80?text=Van Candy" class="img-responsive" style="width:100%" alt="Some yummy chocolate.">
+        <p>Something pretty.</p>
+      </div>
+      <div class="col-sm-4">
+        <div class="well">
+         <p>Chat</p>
+        </div>
+        <div class="well">
+         <p>Join a room</p>
+        </div>
+      </div>
+    </div>
+    </div><br>
+
+    <% include partials/templates/footer.ejs %>
+    <% include partials/templates/jsdefaults.ejs %>
+  </body>
+</html>
