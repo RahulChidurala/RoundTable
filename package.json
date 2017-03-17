@@ -1,6 +1,6 @@
 {
   "name": "roundtable",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "description": "A game about lying to your friends.",
   "main": "server.js",
   "scripts": {
